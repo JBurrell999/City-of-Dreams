@@ -10,9 +10,9 @@ matplotlib.use('Agg')
 
 load_dotenv()
 
-API_KEY = os.environ.get('OPENAI_API_KEY', 'your_openai_api_key_here')
+API_KEY = os.environ.get('OPENAI_API_KEY', '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')
 
-os.environ['PANDASAI_API_KEY'] = '$2a$10$61Xl5tmhXWBg77y9ByiUc.uGps4.HsBgNh8yZpkdcSgBOnKgtNfrK'
+os.environ['PANDASAI_API_KEY'] = '$2a$10$LcxR6H.NbnF2nY/yuW7N3OuwP8KUnejwFRd7rfL8KXi.CWK2EY4h'
 
 llm = OpenAI(api_token=API_KEY)
 
